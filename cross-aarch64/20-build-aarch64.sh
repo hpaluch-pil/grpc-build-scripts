@@ -42,6 +42,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=$TC_FILE \
       -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_CXX_STANDARD=17 \
       -DgRPC_USE_SYSTEMD=OFF \
+      -DgRPC_BUILD_CODEGEN=ON \
       -DCMAKE_INSTALL_PREFIX=$INSTALL_TARGET \
       ../..
 make -j`nproc` install
