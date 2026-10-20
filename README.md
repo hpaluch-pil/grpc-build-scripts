@@ -2,6 +2,8 @@
 
 Set of scripts to build gRPC.
 
+# Building on Linux
+
 Tested Host OS (always `x86_64` also known as `amd64`):
 * Debian 13
 * Fedora 45 Server Edition Prerelease (Oct 16, 2026)
@@ -55,6 +57,10 @@ cross-aarch64/10-build-host.sh
 cross-aarch64/20-build-aarch64.sh
 cross-aarch64/30-example-aarch64.sh
 ```
+
+# Building on Windows
+
+Please read [win/README.md](win/README.md)
 
 # Resources
 
